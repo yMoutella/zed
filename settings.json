@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "theme": "Andromeda",
+  "theme": "Catppuccin Frappé - No Italics",
   "vim_mode": true,
   "ui_font_size": 13,
   "ui_font_family": "JetBrainsMono Nerd Font",
@@ -35,7 +35,7 @@
     "tab.active_background": "#3f3f4650",
     "border": "#00000055",
     "status_bar.background": "#000000EE",
-    "title_bar.background": "#000000EE",
+    "title_bar.background": "#000000DD",
     "border.variant": "#000000EE",
     "scrollbar.track.background": "#52525bEE",
     "scrollbar.track.border": "#000000EE",
