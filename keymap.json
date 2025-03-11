@@ -2,7 +2,7 @@
 //
 // For information on binding keys, see the Zed
 // documentation: https://zed.dev/docs/key-bindings
-//  
+//
 // To see the default key bindings run `zed: openjj default keymap`
 // from the command palette.
 [
@@ -27,6 +27,15 @@
       "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
       "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
       "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "A": "project_panel::NewDirectory",
+      "a": "project_panel::NewFile",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete"
     }
   }
 ]
