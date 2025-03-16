@@ -16,7 +16,8 @@
     "context": "Editor",
     "bindings": {
       "ctrl-w q": "pane::CloseActiveItem",
-      "ctrl-s": ["workspace::SendKeystrokes", "escape save"]
+      "ctrl-s": ["workspace::SendKeystrokes", "escape save"],
+      "space e": "workspace::ToggleZoom"
     }
   },
   {
